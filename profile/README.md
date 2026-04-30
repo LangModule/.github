@@ -13,6 +13,11 @@ A **LangGraph checkpoint saver for Azure Cosmos DB** with sync and async support
 
 `pip install langgraph-checkpoint-cosmos`
 
+### [langgraph-postgres-memory](https://github.com/LangModule/langgraph-postgres-memory)
+**Production-ready PostgreSQL memory for LangGraph agents.** Short-term memory (checkpointer) and long-term memory (store) with one-line setup — connection pooling, lifecycle management, retry with backoff, thread cleanup, TTL auto-expiry, and optional semantic search with any embedding provider. No boilerplate.
+
+`pip install langgraph-postgres-memory`
+
 ### [wikinow](https://github.com/LangModule/wikinow)
 A **local-first personal knowledge base** implementing the LLM Wiki pattern. Feed it URLs, PDFs, YouTube videos, or audio — an LLM organizes everything into a structured, cross-referenced wiki. Query it through any AI tool via MCP (21 tools), browse in Obsidian, or search with full-text SQLite FTS5.
 
