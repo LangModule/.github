@@ -9,7 +9,7 @@ LangModule is a collection of open-source projects focused on making AI agent in
 ## Projects
 
 ### [ingestlib](https://github.com/LangModule/ingestlib)
-**Self-hosted document intelligence for RAG pipelines** — the territory of LlamaParse / Reducto / Unstructured.io, running on your own stack. One call takes a PDF/DOCX/PPTX to searchable, cited, retrieval-ready chunks: layout-aware parsing with charts converted to data tables and every block traceable to a bounding box, document classification, natural chunking that never splits a table, and hybrid (dense + sparse) retrieval with reranking on Pinecone or Qdrant. PaddleOCR-VL on your GPU + Amazon Nova for judgment, at ~$0.002/page.
+**Self-hosted document intelligence for RAG pipelines** — the territory of LlamaParse / Reducto / Unstructured.io, running on your own stack. One call takes a PDF/DOCX/PPTX to searchable, cited, retrieval-ready chunks: layout-aware parsing with charts converted to data tables and every block traceable to a bounding box, document classification, natural chunking that never splits a table, and hybrid (dense + sparse) retrieval with reranking on **six vector stores** — Pinecone, Qdrant, SQLite, Postgres/pgvector, MongoDB, or Milvus, each one connection string away. PaddleOCR-VL on your GPU + Amazon Nova for judgment, at ~$0.002/page.
 
 `pip install ingestlib`
 
