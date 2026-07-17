@@ -13,8 +13,8 @@ LangModule is a collection of open-source projects focused on making AI agent in
 
 `pip install ingestlib`
 
-### [ingestlib-studio](https://github.com/LangModule/ingestlib-studio) 🚧
-**Visual review UI for ingestlib** — see exactly what your documents became: page-by-page parse review with hover-to-highlight bounding boxes, and a retrieval playground where every answer points to its source on the page. FastAPI + React. In development.
+### [ingestlib-studio](https://github.com/LangModule/ingestlib-studio)
+**Visual review UI for ingestlib** — see exactly what your documents became. A first-run wizard verifies your AWS access with real calls and activates the config with zero restarts; try-before-you-commit pipeline runs; page-by-page parse review with hover-to-highlight bounding boxes; committed ingestion with live per-stage progress; a retrieval playground where every answer points to its source on the page; and lossless vector-store migration, because S3 is the source of truth. FastAPI + React.
 
 ### [checkpoint-cosmos](https://github.com/LangModule/checkpoint-cosmos)
 A **LangGraph checkpoint saver for Azure Cosmos DB** with sync and async support. Drop-in persistence backend for LangGraph workflows with keyless `DefaultAzureCredential` authentication, tip-document optimization for O(1) latest-checkpoint access, and transactional batch consistency.
